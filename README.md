@@ -1,4 +1,10 @@
 # REPO TUGAS KELOMPOK TCC
+Anggota :   
+Muhammad Najib  
+Rizky Harya R  
+Andri Siswanto  
+Lukman Surya Laksana  
+Dzikry Kusuma  
 ## Konsep
 ![alt text](IMG11/1.jpg)
 
@@ -39,3 +45,9 @@ Informasi lebih lanjut mengenai QEMU dapat dibaca di http://www.qemu.org .
 LXC atau Linux Container ini merupakan virtualisasi OS atau virtualisasi operating system. Di sini containernya diisolasi tetapi masih melakukan share pada operating system dan juga library/binnya.
 Informasi lebih lanjut mengenai LXC silahkan mengunjungi https://linuxcontainers.org/ .
 ## Arsitektur dan konsep deplyment
+![arsitektur1](./img/DIET_Proxmox_Archi.png)  
+![arsitektur2](./img/DIET_Proxmox_Archi.png)
+komponen arsitektur tersebut 
+Cluster PVE : Several clustered servers PVE.
+PVE : Hypervisor Proxmox.
+API : Proxmox VE uses a REST like API. This API use JSON as data format. The whole API is formally defined using JSON Schema.  
