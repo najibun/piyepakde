@@ -5,6 +5,7 @@ Rizky Harya R
 Andri Siswanto  
 Lukman Surya Laksana  
 Dzikry Kusuma  
+
 ## Konsep
 ![alt text](IMG11/1.jpg)
 
@@ -24,6 +25,26 @@ Dengan spesifikasi tersebut Anda bisa menginstal dengan banyak pilihan sistem op
 Sifat elastis dari produk cloud computing memungkinkan para wirausahawan teknologi untuk menggunakan anggaran sesuai kebutuhan, agar stabilitas operasional bisnis tetap terjaga dan berimbang.
 
 ## Berbagai sofware IaaS
+1. Amazon, Inc – Amazon EC2
+
+   ![alt text](img/amazon.png)
+
+   Amazon EC2 dalah platform komputasi berupa virtual computer yang dapat di kustomisasi maupun di kembangkan dengan menggunakan prinsip cluster dan load balance. Untuk deployment nya sendiri sangat mudah sekali karena hanya perlu memilih image yang disebut AMI (Amazon Machine Instances) dan setup hanya perlu 5-10 menit.
+
+
+2. Telkom – TelkomCloud
+
+   ![alt text](img/telkom_cloud.jpg)
+
+   TelkomCloud adalah layanan yang menyediakan IT Resources Service (Computing, Storage & Network) dan Application Services dengan menggunakan teknologi virtualisasi berbasis cloud computing (on-demand, rapid elasticity, & fast deployment) yang akan meningkatkan akselerasi bisnis pelanggan.
+
+
+3. NaviSite, Inc.
+
+   ![alt text](img/navisite.png)
+
+   Merupakan Time Warner Cable Company, adalah penyedia internasional terkemuka dari pelayanan dan pengaturan aplikasi-aplikasi kelas enterprise dan hosting cloud. NaviSite menyediakan rangkaian lengkap dari layanan yang dikelola serta dapat diandalkan dan terukur, termasuk pelayanan aplikasi, Hosting perusahaan yang terdepan dalam industri, dan pelayanan pengaturan Cloud untuk organisasi ingin melakukan outsourcing infrastruktur TI dan membantu menurunkan modal serta biaya operasional. Konsumen perusahaan bergantung pada NaviSite untuk solusi khusus, yang disampaikan melalui pusat data kelas internasional yang canggih.
+
 ## Getting started PROXMOX  
 Proxmox VE merupakan kependekan dari Proxmox Virtual Environment ada juga yang mengingkat menjadi PVE. Pengertian dari Proxmox VE adalah suatu platform virtualisasi yang stabil, lengkap, memiliki team support yang baik dan masuk di kelas virtualisasi enterprise. Proxmox ini merupakan proyek open source, dibangun dari Linux Debian. Proxmox VE akan melakukan manajeme container, virtual machine, storage, jaringan virtual, high availability cluster melalui antar muka web dan dapat juga menggunakan command line.  
 
@@ -44,6 +65,7 @@ Informasi lebih lanjut mengenai QEMU dapat dibaca di http://www.qemu.org .
 3. LXC  
 LXC atau Linux Container ini merupakan virtualisasi OS atau virtualisasi operating system. Di sini containernya diisolasi tetapi masih melakukan share pada operating system dan juga library/binnya.
 Informasi lebih lanjut mengenai LXC silahkan mengunjungi https://linuxcontainers.org/ .
+
 ## Arsitektur dan konsep deplyment
 ![arsitektur1](./img/DIET_Proxmox_Archi.png)  
 ![arsitektur2](./img/DIET_Proxmox_Archi.png)
